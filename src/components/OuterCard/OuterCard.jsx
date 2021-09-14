@@ -13,7 +13,6 @@ const OuterCard = (props) => {
                 <p className="outercard__label">{team.role} </p>
 
                 <InnerCard/>
-
             </div>
         </>
     )
