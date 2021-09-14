@@ -6,4 +6,8 @@
   justify-items: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 5px 5px 24px 5px #9E9E9E;
+  &__label{
+    font-size: 20px;
+  }
 }

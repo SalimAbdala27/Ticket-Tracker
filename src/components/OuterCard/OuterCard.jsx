@@ -8,8 +8,8 @@ const OuterCard = (props) => {
     return (
         <>
             <div className="outercard">
-                <p>{team.name} </p>
-                <p>{team.role} </p>
+                <p className="outercard__label">{team.name} </p>
+                <p className="outercard__label">{team.role} </p>
             </div>
         </>
     )
