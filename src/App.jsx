@@ -10,10 +10,10 @@ function App() {
     return (
         <div className="App">
             <div className="App__heading">
-                Ticket Tracker
+                <h1>Ticket Tracker</h1>
             </div>
 
-            <div>
+            <div className="App__card">
                 {nameJSX}
             </div>
         </div>
