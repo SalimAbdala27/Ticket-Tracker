@@ -1,8 +1,12 @@
 import './App.scss';
-import team from "./data/team";
+import teams from "./data/team";
 import OuterCard from "./components/OuterCard/OuterCard";
 
 function App() {
+  const nameJSX = teams.map((team, index) =>(
+    <OuterCard team={team}/>
+  ))
+
     return (
         <div className="App">
             <div className="App__heading">
@@ -10,8 +14,7 @@ function App() {
             </div>
 
             <div>
-                <OuterCard name={team[1].name}/>
-                <OuterCard role={team[1].role}/>
+                {nameJSX}
             </div>
         </div>
     );

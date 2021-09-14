@@ -3,14 +3,13 @@ import "./OuterCard.scss"
 
 const OuterCard = (props) => {
 
-    const  { name, role} = props;
-
+    const  { team } = props;
 
     return (
         <>
             <div>
-                <p>{name} </p>
-                <p>{role} </p>
+                <p>{team.name} </p>
+                <p>{team.role} </p>
             </div>
         </>
     )
