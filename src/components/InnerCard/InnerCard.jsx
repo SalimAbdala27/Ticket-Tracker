@@ -10,7 +10,7 @@ const InnerCard = () => {
     }
 
     function decrementTicket() {
-        setTicket(prevTicket => prevTicket -1)
+        setTicket(prevTicket => prevTicket=== 0 ? prevTicket: prevTicket-1)
     }
 
     return (
