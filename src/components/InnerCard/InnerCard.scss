@@ -3,13 +3,52 @@
   flex-direction: column;
   width: 8vw;
   height: 20vh;
-  border: 5px solid black;
+  border: 3px solid #FFADAD;
+  &__buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    &--btn{
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+    }
+  }
+}  
 
+.lower{
+  border: red solid 2px;
+  background: none;
+}
+.lower:hover{
+  background-color: red;
 }
 
-.innerCard__buttons {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+.higher{
+  border: green solid 2px;
+  background: none;
+}
+.higher:hover{
+  background-color: green;
 }
 
+@media only screen and (max-width:500px) {
+  .innerCard {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 30vh;
+    &__heading{
+      font-size: 25px;
+    }
+    &__buttons {
+      display: flex;
+      justify-content: space-around;
+      &--btn{
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+      }
+    }
+  } 
+}

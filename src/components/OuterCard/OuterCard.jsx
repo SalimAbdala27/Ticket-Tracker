@@ -11,7 +11,6 @@ const OuterCard = (props) => {
             <div className="outercard">
                 <p className="outercard__label">{team.name} </p>
                 <p className="outercard__label">{team.role} </p>
-
                 <InnerCard/>
             </div>
         </>
