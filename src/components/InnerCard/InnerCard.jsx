@@ -14,16 +14,16 @@ const InnerCard = () => {
     }
 
     return (
-      <>
-        <div className="innerCard">
-          <h2 className="innerCard__heading">Counter</h2>
-          <span>{ticket}</span>
-            <div className="innerCard__buttons">
-              <button className="innerCard__buttons--btn lower" onClick={decrementTicket}>-</button>
-                <button className="innerCard__buttons--btn higher" onClick={incrementTicket}>+</button>
-              </div>
-          </div>
-      </>
+    <>
+      <div className="innerCard">
+      <h2 className="innerCard__heading">Counter</h2>
+      <span>{ticket}</span>
+        <div className="innerCard__buttons">
+          <button className="innerCard__buttons--btn lower" onClick={decrementTicket}>-</button>
+          <button className="innerCard__buttons--btn higher" onClick={incrementTicket}>+</button>
+        </div>
+      </div>
+    </>
     )
 }
 

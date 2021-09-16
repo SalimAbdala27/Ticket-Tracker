@@ -46,8 +46,8 @@ const team = [
   },
   {
     id: 10,
-    name: "Phillip Mitchell",
-    role: "Hard Man"
+    name: "Isher Sagay",
+    role: "Young Man"
   },
 ]
 export default team;
