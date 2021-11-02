@@ -1,9 +1,9 @@
 .innerCard {
   display: flex;
   flex-direction: column;
-  width: 8vw;
-  height: 20vh;
-  border: 3px solid #FFADAD;
+  width: 9vw;
+  height: 22vh;
+  border: 3px solid #2F86A6;
   &__buttons {
     display: flex;
     justify-content: space-around;
@@ -19,17 +19,21 @@
 .lower{
   border: red solid 2px;
   background: none;
+  color: #EEE;
 }
 .lower:hover{
   background-color: red;
+  cursor: pointer;
 }
 
 .higher{
   border: green solid 2px;
   background: none;
+  color: #EEE;
 }
 .higher:hover{
   background-color: green;
+  cursor: pointer;
 }
 
 @media only screen and (max-width:500px) {

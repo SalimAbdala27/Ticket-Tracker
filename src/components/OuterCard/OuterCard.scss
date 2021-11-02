@@ -1,14 +1,18 @@
+
+
+
 .outercard{
-  border: 5px solid #FFADAD;
-  height: 40vh;
+  border: 5px solid #2F86A6;
+  height: 42vh;
   width: 17vw;
   display: flex;
   justify-items: center;
   align-items: center;
   flex-direction: column;
   box-shadow: 5px 5px 24px 5px #9E9E9E;
-  background-color: #FFDAC7 ;
+  background-color: #142850 ;
   border-radius: 10px;
+  color: white;
   &__label{
     font-size: 20px;
   }

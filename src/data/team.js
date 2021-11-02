@@ -47,7 +47,7 @@ const team = [
   {
     id: 10,
     name: "Isher Sagay",
-    role: "Young Man"
+    role: "Software Developer"
   },
 ]
 export default team;
